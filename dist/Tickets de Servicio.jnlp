@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Tickets de Servicio.jnlp">
+  <information>
+    <title>Tickets de Servicio</title>
+    <vendor>rolbi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\postgresql-42.7.5.jar" size="1087908" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Tickets de Servicio" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="tickets.de.servicio.TicketsDeServicio"  name="Tickets de Servicio" />
+  <update check="always"/>
+</jnlp>

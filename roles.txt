@@ -1,0 +1,7 @@
+admin|admin123|Admin
+tecnico|tecnico123|Tecnico
+usuario|usuario123|Usuario
+Rolbin |123       |Admin
+
+# Formato: usuario|contraseña|rol
+# Roles válidos: Admin, Tecnico, Usuario

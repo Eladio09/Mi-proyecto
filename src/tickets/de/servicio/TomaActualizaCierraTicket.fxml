@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="tickets.de.servicio.TomaActualizaCierraTicketController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Pane prefHeight="79.0" prefWidth="600.0" style="-fx-background-color: #007074;">
+               <children>
+                  <Label layoutX="126.0" layoutY="26.0" text="Tomar, Actualizar o Cerrar Ticket">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="regresarButton" layoutX="514.0" layoutY="8.0" mnemonicParsing="false" onAction="#handleRegresarAction" prefHeight="28.0" prefWidth="72.0" text="Regresar">
+                     <font>
+                        <Font name="System Bold Italic" size="10.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane layoutX="-1.0" layoutY="79.0" prefHeight="321.0" prefWidth="600.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="464.0" layoutY="27.0" prefHeight="21.0" prefWidth="95.0" text="Lista Tickets">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="listaTicketsComboBox" layoutX="436.0" layoutY="54.0" prefWidth="150.0" />
+                  <Label layoutX="20.0" layoutY="58.0" text="Estado Ticket:" />
+                  <Button fx:id="guardarButton" layoutX="348.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleGuardarAction" text="Guardar" />
+                  <Button fx:id="editarButton" layoutX="200.0" layoutY="268.0" mnemonicParsing="false" onAction="#handleEditarAction" text="Editar" />
+                  <Label layoutX="20.0" layoutY="114.0" text="Comentarios:" />
+                  <ComboBox fx:id="estadoTicketComboBox" layoutX="103.0" layoutY="54.0" prefHeight="25.0" prefWidth="186.0" />
+                  <TextArea fx:id="comentariosTextArea" layoutX="103.0" layoutY="103.0" prefHeight="150.0" prefWidth="186.0" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

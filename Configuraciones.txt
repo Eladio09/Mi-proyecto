@@ -1,0 +1,10 @@
+=== Configuración Guardada ===
+Fecha: 2025-05-19 23:21:31
+Empresa: SDHAPC
+Zona Horaria: Guatemala (GMT-6/-5)
+Tiempo Ticket: 4 horas
+Idioma: Español
+Prioridad: Baja
+Logo cargado: Sí
+=============================
+

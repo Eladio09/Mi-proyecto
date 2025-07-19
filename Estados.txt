@@ -1,0 +1,4 @@
+Abierto - Ticket recién creado (Final: No) [Permite: En progreso, Cerrado]
+En progreso - Ticket siendo atendido (Final: No) [Permite: En revisión, Cerrado]
+Cerrado - Nuevo ticket (Final: No) [Permite: En revisión]
+Cerrado - Ticket finalizado (Final: Sí) [Permite: Abierto]

@@ -1,0 +1,5 @@
+Rolbin,Usuario,rolbineladio@gmail.com,user123,usuarioRolbin,TI
+Eladio Oliva|Técnico|eladio@gmail.com|tec123|tecnicoOliva|Ventas
+Rolbin|Técnico|eladio@gmail.com|tec123|tecnico|TI
+Eladio Chajon,tecnico,rolbineladio@gmail.com,user123,Técnico,Ventas
+Rolbin,cac,don@mail.com,user123,Usuario,Ventas

@@ -1,0 +1,5 @@
+Crear|Permite crear nuevos registros
+Leer|Permite visualizar información
+Actualizar|Permite modificar registros existentes
+Eliminar|Permite borrar registros
+Exportar|Permite exportar datos a diferentes formatos

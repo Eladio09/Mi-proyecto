@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tickets.de.servicio.LoginController">
+   <children>
+      <Pane prefHeight="52.0" prefWidth="493.0" style="-fx-background-color: #009990;">
+         <children>
+            <Label layoutX="229.0" layoutY="16.0" text="Login">
+               <font>
+                  <Font name="Arial Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="52.0" prefHeight="367.0" prefWidth="493.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="17.0" layoutY="157.0" text="Usuario">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="226.0" text="Contraseña">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtNombre" layoutX="105.0" layoutY="155.0" prefHeight="25.0" prefWidth="181.0" />
+            <PasswordField fx:id="txtContrasena" layoutX="104.0" layoutY="223.0" prefHeight="25.0" prefWidth="181.0" />
+            <Button fx:id="btnIngresar" layoutX="227.0" layoutY="273.0" mnemonicParsing="false" onAction="#eventIngresar" text="Ingresar" />
+            <Button fx:id="btnLimpiar" layoutX="104.0" layoutY="273.0" mnemonicParsing="false" onAction="#eventLimpiar" text="Limpiar" />
+            <ImageView fitHeight="120.0" fitWidth="128.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/OIP.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="249.0" fitWidth="181.0" layoutX="305.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imagenes/R.jpg" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="cbRoles" layoutX="105.0" layoutY="191.0" prefHeight="25.0" prefWidth="181.0" />
+            <Label layoutX="17.0" layoutY="195.0" text="Rol">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

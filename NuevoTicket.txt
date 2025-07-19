@@ -1,0 +1,34 @@
+=== Nuevo Ticket ===
+Fecha/Hora: 2025-05-23T18:53:52.394
+Título: Comprobacion 018
+Descripción: Entro el dia 23/05/2025 para revision.
+Departamento: TI
+Prioridad: Media
+====================
+
+-Ticket Nuevo-
+Fecha/Hora: 2025-05-27T22:23:56.993
+Título: Nuevo Ticket de reinscripción 002.
+Descripción: Ticket para reinscripcion de usuarion.
+Departamento: Ventas
+Prioridad: Baja
+Estado: Abierto
+Notas: Nada por ahora.
+
+-Ticket Nuevo-
+-Ticket Nuevo-
+-Ticket Nuevo-
+Descripción: Para cambio de departamento.
+Departamento: TI
+Prioridad: Media
+---------
+
+-Ticket Nuevo-
+-Ticket Nuevo-
+Título: Evaluacion 006
+Descripción: Para registro de nuevo ticket.
+Departamento: TI
+Prioridad: Baja
+Estado: Abierto
+Notas: Vale Verga.
+

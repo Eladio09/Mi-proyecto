@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tickets.de.servicio.MenuOperacionesController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="622.0">
+         <children>
+            <Pane layoutX="-6.0" layoutY="88.0" prefHeight="323.0" prefWidth="632.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="35.0" text="Menu de Operaciones:">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <MenuButton fx:id="menuButton" layoutX="142.0" layoutY="31.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0" text="Menu">
+                     <items>
+                        <MenuItem fx:id="menuItemRoles" mnemonicParsing="false" onAction="#handleMenuItemRoles" text="Roles y Permisos" />
+                        <MenuItem fx:id="menuItemDepartementos" mnemonicParsing="false" onAction="#handleMenuItemDepartamentos" text="Registrar Departamentos" />
+                        <MenuItem fx:id="menuItemUsuarios" mnemonicParsing="false" onAction="#handleMenuItemUsuarios" text="Registrar Usuarios" />
+                        <MenuItem fx:id="menuItemEstadoTicket" mnemonicParsing="false" onAction="#handleMenuItemEstadoTicket" text="Estado de los Ticket" />
+                        <MenuItem fx:id="menuItemFlujosTrabajo" mnemonicParsing="false" onAction="#handleMenuItemFlujosTrabajo" text="Flujos de Trabajo" />
+                        <MenuItem fx:id="menuItemGestionarTicket" mnemonicParsing="false" onAction="#handleMenuItemGestionarTicket" text="Gestionar Ticket" />
+                        <MenuItem fx:id="menuItemConsultarLista" mnemonicParsing="false" onAction="#handleMenuItemConsultarLista" text="Consultar Lista Solicitudes" />
+                        <MenuItem fx:id="menuItemCambiarEstado" mnemonicParsing="false" onAction="#handleMenuItemCambiarEstado" text="Cambiar Estado Tickets" />
+                        <MenuItem fx:id="menuItemAgregarNota" mnemonicParsing="false" onAction="#handleMenuItemAgregarNota" text="Agregar Nota a Ticket" />
+                        <MenuItem fx:id="menuItemHistorial" mnemonicParsing="false" onAction="#handleMenuItemHistorial" text="Historial de Operaciones" />
+                        <MenuItem fx:id="menuItemSalir" mnemonicParsing="false" onAction="#handleMenuItemSalir" text="Salir" />
+                     </items>
+                  </MenuButton>
+               </children>
+            </Pane>
+            <Pane prefHeight="88.0" prefWidth="626.0" style="-fx-background-color: #007074;">
+               <children>
+                  <Label layoutX="136.0" layoutY="24.0" prefHeight="30.0" prefWidth="329.0" text="Configuraciones del Sistema">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="88.0" fitWidth="91.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imagenes/aju.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

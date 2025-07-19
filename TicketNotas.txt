@@ -1,0 +1,13 @@
+Estado: Cerrado - Nuevo ticket (Final: No) [Permite: En revisión]
+
+Filtro aplicado: 
+
+Resultados:
+Abierto - Ticket recién creado (Final: No) [Permite: En progreso, Cerrado]
+En progreso - Ticket siendo atendido (Final: No) [Permite: En revisión, Cerrado]
+Cerrado - Nuevo ticket (Final: No) [Permite: En revisión]
+Cerrado - Ticket finalizado (Final: Sí) [Permite: Abierto]
+
+Nota agregada para Cerrado - Nuevo ticket (Final: No) [Permite: En revisión]: El ticket has sido cerrado.
+
+

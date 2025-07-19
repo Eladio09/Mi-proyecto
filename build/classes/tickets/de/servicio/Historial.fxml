@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="tickets.de.servicio.HistorialController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="622.0">
+         <children>
+            <Pane layoutX="-6.0" layoutY="88.0" prefHeight="322.0" prefWidth="628.0">
+               <children>
+                  <Button fx:id="btnMostrarHistorial" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleMostrarHistorial" prefHeight="25.0" prefWidth="115.0" text="Mostrar Historial " />
+                  <TextArea fx:id="txtHistorial" layoutX="14.0" layoutY="44.0" prefHeight="267.0" prefWidth="602.0" />
+                  <Button fx:id="btnLimpiar" layoutX="167.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleLimpiarHistorial" text="Limpiar" />
+               </children>
+            </Pane>
+            <Pane prefHeight="88.0" prefWidth="622.0" style="-fx-background-color: #007074;">
+               <children>
+                  <Label layoutX="136.0" layoutY="24.0" prefHeight="30.0" prefWidth="329.0" text="Historial de todo el Sistema">
+                     <font>
+                        <Font name="Arial Black" size="19.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="88.0" fitWidth="91.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imagenes/aju.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btnRegresar" layoutX="525.0" layoutY="16.0" mnemonicParsing="false" onAction="#handleRegresar" text="Regresar" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
